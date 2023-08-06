@@ -3,7 +3,7 @@
 :root{
     --black-color: rgb(14,16,21);
     --hover-button: rgb(243, 83, 83);
-    --dyno-button: rgb(222,53,76);
+    --dyno-button: rgb(193,35,79);
 }
 body{
     margin:0;
@@ -39,6 +39,9 @@ header ul{
     align-items: center;
     padding-left: 16px;
 }
+header a{
+    text-decoration: none;
+}
 header ul li{
     color: white;
     list-style: none;
@@ -49,7 +52,7 @@ header ul li{
 header ul li a{
     color:white;
     text-decoration: none;
-    transition: all 0.25s
+    transition: all 0.25s;
 }
 
 header ul li a:hover{
@@ -78,7 +81,7 @@ header ul li a:hover{
     align-items: center;
 }
 .header-buttons-1{
-    background-color: rgb(74, 74, 74);
+    background-color: rgb(46, 50, 61);
     color:white;
     border: none;
     border-radius: 2px;
@@ -88,7 +91,7 @@ header ul li a:hover{
     transition: all 0.25s;
     cursor:pointer;
     font-size: 16px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .header-buttons-1:hover{
@@ -103,13 +106,14 @@ header ul li a:hover{
     font-family: 'Roboto', sans-serif;
     height: 35px;
     width: 150px;
+    font-size: 15px;
     margin-left: 8px;
     transition: all 0.25s;
     cursor:pointer;
-    font-weight: bold; 
+    /* font-weight: bold; */
 }
 .header-buttons-2:hover{
-    background-color:rgb(196, 47, 67);
+    background-color:rgb(163, 39, 55);
 }
 .verify-content{
     padding-left: 30vw;
@@ -142,14 +146,14 @@ header ul li a:hover{
     padding-top: 16px;
 }
 .p1-verify{
-    color:rgb(198, 198, 198);
+    color:rgb(122, 122, 122);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     width: 650px;
     font-size: 1.25rem;
 }
 .p1-verify a{
-    color:rgb(198, 198, 198);
+    color:rgb(122, 122, 122);
     text-decoration: none;
 }
 
@@ -167,7 +171,7 @@ header ul li a:hover{
     transition: all 0.25s;
 }
 .bookmark:hover{
-    background-color:  rgb(196, 47, 67);
+    background-color:  rgb(163, 39, 55);
 }
 .page-content ul{
 }
