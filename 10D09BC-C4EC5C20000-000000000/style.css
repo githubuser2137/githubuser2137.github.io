@@ -252,3 +252,38 @@ footer{
     text-decoration: none;
     color:white;
 }
+
+.mobile{display:none;}
+@media (max-width:760px) { 
+    header ul{
+        display: none;
+    }
+    .header-buttons{
+        display: none;
+    }
+    .logo{
+        display:flex !important;
+        padding-left: 35vw;
+    }
+    .verify-content{
+        padding-left: 9vw;
+        padding-top: 5vh;
+        padding-bottom:5vh;
+    }
+    .verify-content img{
+        display: none;
+    }
+    .bookmark{
+        width: 200px;
+    }
+    .p1-verify{
+        font-size: 17px;
+        width: 350px;
+    }
+    .mobile{
+        display:flex;
+        font-family: 'Roboto', sans-serif;
+        color:red;
+    }
+
+}
