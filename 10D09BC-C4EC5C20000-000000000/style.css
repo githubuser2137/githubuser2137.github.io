@@ -48,6 +48,7 @@ header ul li{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     padding-right: 24px;
+    white-space: nowrap;
 }
 header ul li a{
     color:white;
@@ -77,7 +78,7 @@ header ul li a:hover{
 .header-buttons{
     display: flex;
     flex-direction: row;
-    padding-left: 710px;
+    padding-left: 35vw;
     align-items: center;
 }
 .header-buttons-1{
